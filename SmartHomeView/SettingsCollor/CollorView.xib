@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollorView" customModule="SmartHomeView" customModuleProvider="target">
+            <connections>
+                <outlet property="collorImageView" destination="nio-oh-ZWh" id="PL2-dv-UFW"/>
+                <outlet property="collorMainView" destination="iN0-l3-epB" id="B6t-pv-2uD"/>
+                <outlet property="collorTextLable" destination="CXG-tL-h6U" id="IzZ-pv-1nG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" semanticContentAttribute="playback" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="262" height="165"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nio-oh-ZWh">
+                    <rect key="frame" x="188" y="68" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="L3p-eu-pnT"/>
+                        <constraint firstAttribute="width" constant="50" id="iUa-rz-Tdb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXG-tL-h6U">
+                    <rect key="frame" x="24" y="76" width="100" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="CWV-aX-xjq"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Label">
+                            <attributes>
+                                <font key="NSFont" size="20" name="SFMono-Regular"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="CXG-tL-h6U" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="9QN-ca-HIq"/>
+                <constraint firstItem="CXG-tL-h6U" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="PDU-bT-ZV4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nio-oh-ZWh" secondAttribute="trailing" constant="24" id="a12-LB-ghh"/>
+                <constraint firstItem="nio-oh-ZWh" firstAttribute="centerY" secondItem="CXG-tL-h6U" secondAttribute="centerY" id="gzU-vA-lnw"/>
+                <constraint firstItem="nio-oh-ZWh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="yi4-wK-mXW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-30.434782608695656" y="-146.31696428571428"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChargeBlock" customModule="SmartHomeView" customModuleProvider="target">
+            <connections>
+                <outlet property="centralTextLable" destination="kne-Ig-pdf" id="3SS-FQ-u9N"/>
+                <outlet property="chargeImageView" destination="03a-Cd-nF2" id="FiE-fb-8LB"/>
+                <outlet property="grayLittleTextLable" destination="dIf-hI-Q1i" id="AWa-tx-tjh"/>
+                <outlet property="mainChargeBlock" destination="iN0-l3-epB" id="mpc-57-Dmg"/>
+                <outlet property="redBlockView" destination="i89-jK-3lJ" id="gzq-fI-KW3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="174"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="03a-Cd-nF2">
+                    <rect key="frame" x="18" y="70" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="9lL-T2-U6x"/>
+                        <constraint firstAttribute="height" constant="40" id="qIq-0x-fUR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kne-Ig-pdf">
+                    <rect key="frame" x="70" y="68" width="80" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="O7I-8p-vpw"/>
+                        <constraint firstAttribute="height" constant="22" id="h1o-9B-wuj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFMono-Medium" family="SF Mono" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIf-hI-Q1i">
+                    <rect key="frame" x="70" y="94" width="65" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Heh-3u-k4W"/>
+                        <constraint firstAttribute="width" constant="65" id="nYE-42-fMb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFMono-Regular" family="SF Mono" pointSize="17"/>
+                    <color key="textColor" systemColor="systemGray4Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i89-jK-3lJ">
+                    <rect key="frame" x="0.0" y="0.0" width="255" height="174"/>
+                    <color key="backgroundColor" red="0.9098039269" green="0.49019610879999997" blue="0.33725491169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="i89-jK-3lJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1h2-fF-rjQ"/>
+                <constraint firstItem="kne-Ig-pdf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="B4g-vH-Vvg"/>
+                <constraint firstItem="i89-jK-3lJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Hlf-ag-59a"/>
+                <constraint firstItem="03a-Cd-nF2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="26" id="U8a-4V-H0w"/>
+                <constraint firstItem="kne-Ig-pdf" firstAttribute="leading" secondItem="03a-Cd-nF2" secondAttribute="trailing" constant="12" id="VuX-MT-jYj"/>
+                <constraint firstItem="03a-Cd-nF2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Zsf-fA-ZjU"/>
+                <constraint firstItem="dIf-hI-Q1i" firstAttribute="leading" secondItem="03a-Cd-nF2" secondAttribute="trailing" constant="12" id="ZwA-K1-Jem"/>
+                <constraint firstItem="i89-jK-3lJ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="eh7-3Z-tox"/>
+                <constraint firstItem="dIf-hI-Q1i" firstAttribute="top" secondItem="kne-Ig-pdf" secondAttribute="bottom" constant="4" id="qee-8n-MNz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="i89-jK-3lJ" secondAttribute="trailing" constant="54" id="uow-Sy-o6b"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="15.217391304347828" y="-231.02678571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

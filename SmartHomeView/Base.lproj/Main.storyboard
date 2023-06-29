@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yw5-yi-k3Y">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainSmartHomeController" id="BYZ-38-t0r" customClass="MainSmartHomeController" customModule="SmartHomeView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yf-X4-Mfq" customClass="LampBlock" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="60" width="382" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="6eR-HL-gMc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxN-8e-3hT" customClass="ChargeBlock" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="196" width="185" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="S7G-k8-ubr"/>
+                                    <constraint firstAttribute="width" constant="185" id="SME-FU-UJu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMM-Qs-pco" customClass="InfoView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="213" y="196" width="185" height="180"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="8OI-Rs-aWc"/>
+                                    <constraint firstAttribute="width" constant="185" id="97d-cT-h2e"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfG-8L-npf" customClass="InfoView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="304" width="185" height="180"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="M7F-ZF-cAc"/>
+                                    <constraint firstAttribute="height" constant="180" id="oPl-Y2-WP6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIy-6v-Xo6" customClass="PowerView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="213" y="384" width="185" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="MM0-cV-4G1"/>
+                                    <constraint firstAttribute="height" constant="100" id="SUC-oq-LFU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5JO-l9-zgD" customClass="CollorView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="492" width="185" height="100"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="R0s-4t-k2e"/>
+                                    <constraint firstAttribute="height" constant="100" id="w2h-fG-TRa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uki-9L-sKT" customClass="ChargeBlock" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="213" y="492" width="185" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="1l3-93-ugh"/>
+                                    <constraint firstAttribute="height" constant="100" id="wmZ-sg-axT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad5-Jl-HtY" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="624" width="382" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1yf-X4-Mfq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="1NV-9p-y8v"/>
+                            <constraint firstItem="5JO-l9-zgD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4eO-zk-NZR"/>
+                            <constraint firstItem="sfG-8L-npf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5O4-QF-H0A"/>
+                            <constraint firstItem="hxN-8e-3hT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9Og-FE-NQm"/>
+                            <constraint firstItem="1yf-X4-Mfq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="G4h-LA-end"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ad5-Jl-HtY" secondAttribute="trailing" constant="16" id="Mgb-Hu-CZQ"/>
+                            <constraint firstItem="hxN-8e-3hT" firstAttribute="top" secondItem="1yf-X4-Mfq" secondAttribute="bottom" constant="8" id="Oox-gA-MUT"/>
+                            <constraint firstItem="BIy-6v-Xo6" firstAttribute="top" secondItem="hMM-Qs-pco" secondAttribute="bottom" constant="8" id="SMv-UA-oMx"/>
+                            <constraint firstItem="sfG-8L-npf" firstAttribute="top" secondItem="hxN-8e-3hT" secondAttribute="bottom" constant="8" id="T6F-Lx-7xO"/>
+                            <constraint firstItem="hMM-Qs-pco" firstAttribute="top" secondItem="1yf-X4-Mfq" secondAttribute="bottom" constant="8" id="Xck-pj-4eP"/>
+                            <constraint firstItem="5JO-l9-zgD" firstAttribute="top" secondItem="sfG-8L-npf" secondAttribute="bottom" constant="8" id="cwa-BQ-xBx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIy-6v-Xo6" secondAttribute="trailing" constant="16" id="dJV-lu-efE"/>
+                            <constraint firstItem="ad5-Jl-HtY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-39" id="eZd-8g-9v8"/>
+                            <constraint firstItem="ad5-Jl-HtY" firstAttribute="top" secondItem="5JO-l9-zgD" secondAttribute="bottom" constant="32" id="efy-j3-ME4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hMM-Qs-pco" secondAttribute="trailing" constant="16" id="i3L-Mj-UO8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1yf-X4-Mfq" secondAttribute="trailing" constant="16" id="uZg-8B-rlq"/>
+                            <constraint firstItem="uki-9L-sKT" firstAttribute="top" secondItem="BIy-6v-Xo6" secondAttribute="bottom" constant="8" id="vIh-B1-BSI"/>
+                            <constraint firstItem="ad5-Jl-HtY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wEE-xG-BtY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uki-9L-sKT" secondAttribute="trailing" constant="16" id="xNT-Ey-0za"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ny7-XP-ksq"/>
+                    <connections>
+                        <outlet property="chargerView" destination="hxN-8e-3hT" id="ibv-Ey-F4f"/>
+                        <outlet property="colorsView" destination="5JO-l9-zgD" id="KeR-IK-kSY"/>
+                        <outlet property="lampView" destination="1yf-X4-Mfq" id="Lo3-OV-DKd"/>
+                        <outlet property="lightView" destination="uki-9L-sKT" id="ENT-ma-lST"/>
+                        <outlet property="placementView" destination="sfG-8L-npf" id="ak7-pV-in0"/>
+                        <outlet property="powerView" destination="BIy-6v-Xo6" id="ayZ-Ni-R0v"/>
+                        <outlet property="themeView" destination="hMM-Qs-pco" id="Orm-wZ-kEX"/>
+                        <outlet property="timeTodayView" destination="ad5-Jl-HtY" id="zxq-go-ZvV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="648-hv-dIN">
+            <objects>
+                <viewController storyboardIdentifier="TimeViewController" id="Clz-jJ-C7O" customClass="TimeViewController" customModule="SmartHomeView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wr7-Wz-GbV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nnL-3J-YjB" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="76" width="382" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ZFs-OJ-oi0"/>
+                                    <constraint firstAttribute="width" constant="382" id="cdH-Vo-GpC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28s-ev-sPb" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="258" width="382" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="gdg-iw-O0U"/>
+                                    <constraint firstAttribute="width" constant="382" id="htK-YM-EGI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jo-x9-4uE" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="440" width="382" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="Mv4-gb-P1J"/>
+                                    <constraint firstAttribute="height" constant="150" id="P5H-O6-CUo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-qm-0lD" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="622" width="382" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="inD-Jz-EXs"/>
+                                    <constraint firstAttribute="height" constant="150" id="wo2-2v-1uv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eR8-VZ-y7g"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="8jo-x9-4uE" secondAttribute="trailing" constant="16" id="4qM-jI-cGo"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="9Ia-qm-0lD" secondAttribute="trailing" constant="16" id="8VO-F3-zia"/>
+                            <constraint firstItem="nnL-3J-YjB" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="Lef-Oz-EB0"/>
+                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="LnZ-om-B9c"/>
+                            <constraint firstItem="8jo-x9-4uE" firstAttribute="top" secondItem="28s-ev-sPb" secondAttribute="bottom" constant="32" id="NM4-I5-TWG"/>
+                            <constraint firstItem="28s-ev-sPb" firstAttribute="top" secondItem="nnL-3J-YjB" secondAttribute="bottom" constant="32" id="SZY-Bs-l4C"/>
+                            <constraint firstItem="nnL-3J-YjB" firstAttribute="top" secondItem="eR8-VZ-y7g" secondAttribute="top" constant="32" id="ZRa-RE-JVn"/>
+                            <constraint firstItem="8jo-x9-4uE" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="huj-c6-bEB"/>
+                            <constraint firstItem="28s-ev-sPb" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="paz-8W-DbT"/>
+                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="top" secondItem="8jo-x9-4uE" secondAttribute="bottom" constant="32" id="tUt-bd-omz"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="nnL-3J-YjB" secondAttribute="trailing" constant="16" id="udz-Dg-1lv"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="28s-ev-sPb" secondAttribute="trailing" constant="16" id="wHQ-c6-nRQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="zmo-1n-TPf"/>
+                    <connections>
+                        <outlet property="timeBrekfast" destination="28s-ev-sPb" id="wmF-IJ-FZw"/>
+                        <outlet property="timeEvening" destination="8jo-x9-4uE" id="Xkf-u3-sFC"/>
+                        <outlet property="timeHoliday" destination="9Ia-qm-0lD" id="IgU-JF-6Tf"/>
+                        <outlet property="timeMorning" destination="nnL-3J-YjB" id="6Wc-Iv-Qfs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10Y-rn-Tfo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="761.38392857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5y6-Lf-OOi">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yw5-yi-k3Y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AT4-UX-cIk">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="f46-84-Xjs"/>
+                        <segue destination="Clz-jJ-C7O" kind="relationship" relationship="viewControllers" id="dwy-xR-FRX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vNR-Ua-FPe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42" y="433"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
