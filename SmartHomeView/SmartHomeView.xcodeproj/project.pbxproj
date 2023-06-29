@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6830248F2A38FC0C00384BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830248E2A38FC0C00384BF3 /* AppDelegate.swift */; };
+		683024912A38FC0C00384BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683024902A38FC0C00384BF3 /* SceneDelegate.swift */; };
+		683024932A38FC0C00384BF3 /* MainSmartHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683024922A38FC0C00384BF3 /* MainSmartHomeController.swift */; };
+		683024962A38FC0C00384BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683024942A38FC0C00384BF3 /* Main.storyboard */; };
+		683024982A38FC0D00384BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683024972A38FC0D00384BF3 /* Assets.xcassets */; };
+		6830249B2A38FC0D00384BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683024992A38FC0D00384BF3 /* LaunchScreen.storyboard */; };
+		687A6FE82A38FE0F007D3B34 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FE72A38FE0F007D3B34 /* TimeViewController.swift */; };
+		687A6FEB2A390747007D3B34 /* LampBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FEA2A390747007D3B34 /* LampBlock.swift */; };
+		687A6FED2A39075D007D3B34 /* LampBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A6FEC2A39075D007D3B34 /* LampBlock.xib */; };
+		687A6FF02A390D8E007D3B34 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FEF2A390D8E007D3B34 /* ExtensionUIView.swift */; };
+		687A6FFA2A3A479A007D3B34 /* ChargeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FF92A3A479A007D3B34 /* ChargeBlock.swift */; };
+		687A6FFC2A3A47B3007D3B34 /* ChargeBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A6FFB2A3A47B3007D3B34 /* ChargeBlock.xib */; };
+		687A6FFF2A3D87BA007D3B34 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FFE2A3D87BA007D3B34 /* InfoView.swift */; };
+		687A70012A3D87CB007D3B34 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A70002A3D87CB007D3B34 /* InfoView.xib */; };
+		687A70062A40C1AB007D3B34 /* CollorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A70052A40C1AB007D3B34 /* CollorView.xib */; };
+		687A70082A40CA3A007D3B34 /* CollorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A70072A40CA3A007D3B34 /* CollorView.swift */; };
+		687A700B2A40EBF4007D3B34 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A700A2A40EBF4007D3B34 /* PowerView.swift */; };
+		687A700D2A40EC03007D3B34 /* PowerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A700C2A40EC03007D3B34 /* PowerView.xib */; };
+		687A70102A440CC4007D3B34 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A700F2A440CC4007D3B34 /* TimeView.swift */; };
+		687A70122A440CD3007D3B34 /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A70112A440CD3007D3B34 /* TimeView.xib */; };
+		73DC2A4336A0C8F9C9E0E9F2 /* Pods_SmartHomeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005ABCE1AF57CDC93A37780F /* Pods_SmartHomeView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005ABCE1AF57CDC93A37780F /* Pods_SmartHomeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHomeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A51C05479BE0794273BAB1A /* Pods-SmartHomeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeView.debug.xcconfig"; path = "Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView.debug.xcconfig"; sourceTree = "<group>"; };
+		6830248B2A38FC0C00384BF3 /* SmartHomeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6830248E2A38FC0C00384BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		683024902A38FC0C00384BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		683024922A38FC0C00384BF3 /* MainSmartHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSmartHomeController.swift; sourceTree = "<group>"; };
+		683024952A38FC0C00384BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		683024972A38FC0D00384BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6830249A2A38FC0D00384BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6830249C2A38FC0D00384BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687A6FE72A38FE0F007D3B34 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		687A6FEA2A390747007D3B34 /* LampBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampBlock.swift; sourceTree = "<group>"; };
+		687A6FEC2A39075D007D3B34 /* LampBlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LampBlock.xib; sourceTree = "<group>"; };
+		687A6FEF2A390D8E007D3B34 /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		687A6FF92A3A479A007D3B34 /* ChargeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeBlock.swift; sourceTree = "<group>"; };
+		687A6FFB2A3A47B3007D3B34 /* ChargeBlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChargeBlock.xib; sourceTree = "<group>"; };
+		687A6FFE2A3D87BA007D3B34 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		687A70002A3D87CB007D3B34 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		687A70052A40C1AB007D3B34 /* CollorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollorView.xib; sourceTree = "<group>"; };
+		687A70072A40CA3A007D3B34 /* CollorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollorView.swift; sourceTree = "<group>"; };
+		687A700A2A40EBF4007D3B34 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
+		687A700C2A40EC03007D3B34 /* PowerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowerView.xib; sourceTree = "<group>"; };
+		687A700F2A440CC4007D3B34 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		687A70112A440CD3007D3B34 /* TimeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeView.xib; sourceTree = "<group>"; };
+		7C6C606DD55EDC5A7366437E /* Pods-SmartHomeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeView.release.xcconfig"; path = "Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683024882A38FC0C00384BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DC2A4336A0C8F9C9E0E9F2 /* Pods_SmartHomeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49663DBB94676480848D9C00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005ABCE1AF57CDC93A37780F /* Pods_SmartHomeView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683024822A38FC0C00384BF3 = {
+			isa = PBXGroup;
+			children = (
+				6830248D2A38FC0C00384BF3 /* SmartHomeView */,
+				6830248C2A38FC0C00384BF3 /* Products */,
+				8DA0FC4BBA5ED4F4DD15FABA /* Pods */,
+				49663DBB94676480848D9C00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6830248C2A38FC0C00384BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6830248B2A38FC0C00384BF3 /* SmartHomeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6830248D2A38FC0C00384BF3 /* SmartHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				687A700E2A440CAC007D3B34 /* SettingsTime */,
+				687A70092A40EBD5007D3B34 /* SettingsPower */,
+				687A6FEE2A390D75007D3B34 /* ExtensionUIView */,
+				687A70022A40C15F007D3B34 /* SettingsCollor */,
+				687A6FFD2A3D879F007D3B34 /* SettingsInfoView */,
+				687A6FF12A3A45F4007D3B34 /* SettingsChargeView */,
+				687A6FE92A390720007D3B34 /* SettingsLampView */,
+				6830248E2A38FC0C00384BF3 /* AppDelegate.swift */,
+				683024902A38FC0C00384BF3 /* SceneDelegate.swift */,
+				683024922A38FC0C00384BF3 /* MainSmartHomeController.swift */,
+				687A6FE72A38FE0F007D3B34 /* TimeViewController.swift */,
+				683024942A38FC0C00384BF3 /* Main.storyboard */,
+				6830249C2A38FC0D00384BF3 /* Info.plist */,
+				683024A22A38FCCD00384BF3 /* StandardPrograms */,
+			);
+			path = SmartHomeView;
+			sourceTree = "<group>";
+		};
+		683024A22A38FCCD00384BF3 /* StandardPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				683024972A38FC0D00384BF3 /* Assets.xcassets */,
+				683024992A38FC0D00384BF3 /* LaunchScreen.storyboard */,
+			);
+			path = StandardPrograms;
+			sourceTree = "<group>";
+		};
+		687A6FE92A390720007D3B34 /* SettingsLampView */ = {
+			isa = PBXGroup;
+			children = (
+				687A6FEA2A390747007D3B34 /* LampBlock.swift */,
+				687A6FEC2A39075D007D3B34 /* LampBlock.xib */,
+			);
+			path = SettingsLampView;
+			sourceTree = "<group>";
+		};
+		687A6FEE2A390D75007D3B34 /* ExtensionUIView */ = {
+			isa = PBXGroup;
+			children = (
+				687A6FEF2A390D8E007D3B34 /* ExtensionUIView.swift */,
+			);
+			path = ExtensionUIView;
+			sourceTree = "<group>";
+		};
+		687A6FF12A3A45F4007D3B34 /* SettingsChargeView */ = {
+			isa = PBXGroup;
+			children = (
+				687A6FF92A3A479A007D3B34 /* ChargeBlock.swift */,
+				687A6FFB2A3A47B3007D3B34 /* ChargeBlock.xib */,
+			);
+			path = SettingsChargeView;
+			sourceTree = "<group>";
+		};
+		687A6FFD2A3D879F007D3B34 /* SettingsInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				687A6FFE2A3D87BA007D3B34 /* InfoView.swift */,
+				687A70002A3D87CB007D3B34 /* InfoView.xib */,
+			);
+			path = SettingsInfoView;
+			sourceTree = "<group>";
+		};
+		687A70022A40C15F007D3B34 /* SettingsCollor */ = {
+			isa = PBXGroup;
+			children = (
+				687A70052A40C1AB007D3B34 /* CollorView.xib */,
+				687A70072A40CA3A007D3B34 /* CollorView.swift */,
+			);
+			path = SettingsCollor;
+			sourceTree = "<group>";
+		};
+		687A70092A40EBD5007D3B34 /* SettingsPower */ = {
+			isa = PBXGroup;
+			children = (
+				687A700A2A40EBF4007D3B34 /* PowerView.swift */,
+				687A700C2A40EC03007D3B34 /* PowerView.xib */,
+			);
+			path = SettingsPower;
+			sourceTree = "<group>";
+		};
+		687A700E2A440CAC007D3B34 /* SettingsTime */ = {
+			isa = PBXGroup;
+			children = (
+				687A700F2A440CC4007D3B34 /* TimeView.swift */,
+				687A70112A440CD3007D3B34 /* TimeView.xib */,
+			);
+			path = SettingsTime;
+			sourceTree = "<group>";
+		};
+		8DA0FC4BBA5ED4F4DD15FABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A51C05479BE0794273BAB1A /* Pods-SmartHomeView.debug.xcconfig */,
+				7C6C606DD55EDC5A7366437E /* Pods-SmartHomeView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6830248A2A38FC0C00384BF3 /* SmartHomeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6830249F2A38FC0D00384BF3 /* Build configuration list for PBXNativeTarget "SmartHomeView" */;
+			buildPhases = (
+				A98C607460B4B06F5EE8AEE5 /* [CP] Check Pods Manifest.lock */,
+				683024872A38FC0C00384BF3 /* Sources */,
+				683024882A38FC0C00384BF3 /* Frameworks */,
+				683024892A38FC0C00384BF3 /* Resources */,
+				65262C29B262251AE4A5FA45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeView;
+			productName = SmartHomeView;
+			productReference = 6830248B2A38FC0C00384BF3 /* SmartHomeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683024832A38FC0C00384BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6830248A2A38FC0C00384BF3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 683024862A38FC0C00384BF3 /* Build configuration list for PBXProject "SmartHomeView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683024822A38FC0C00384BF3;
+			productRefGroup = 6830248C2A38FC0C00384BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6830248A2A38FC0C00384BF3 /* SmartHomeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683024892A38FC0C00384BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A70012A3D87CB007D3B34 /* InfoView.xib in Resources */,
+				687A70122A440CD3007D3B34 /* TimeView.xib in Resources */,
+				6830249B2A38FC0D00384BF3 /* LaunchScreen.storyboard in Resources */,
+				687A6FFC2A3A47B3007D3B34 /* ChargeBlock.xib in Resources */,
+				683024982A38FC0D00384BF3 /* Assets.xcassets in Resources */,
+				687A70062A40C1AB007D3B34 /* CollorView.xib in Resources */,
+				683024962A38FC0C00384BF3 /* Main.storyboard in Resources */,
+				687A700D2A40EC03007D3B34 /* PowerView.xib in Resources */,
+				687A6FED2A39075D007D3B34 /* LampBlock.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65262C29B262251AE4A5FA45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98C607460B4B06F5EE8AEE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartHomeView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683024872A38FC0C00384BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A6FFF2A3D87BA007D3B34 /* InfoView.swift in Sources */,
+				687A70082A40CA3A007D3B34 /* CollorView.swift in Sources */,
+				687A6FF02A390D8E007D3B34 /* ExtensionUIView.swift in Sources */,
+				683024932A38FC0C00384BF3 /* MainSmartHomeController.swift in Sources */,
+				687A70102A440CC4007D3B34 /* TimeView.swift in Sources */,
+				687A700B2A40EBF4007D3B34 /* PowerView.swift in Sources */,
+				687A6FE82A38FE0F007D3B34 /* TimeViewController.swift in Sources */,
+				687A6FFA2A3A479A007D3B34 /* ChargeBlock.swift in Sources */,
+				6830248F2A38FC0C00384BF3 /* AppDelegate.swift in Sources */,
+				687A6FEB2A390747007D3B34 /* LampBlock.swift in Sources */,
+				683024912A38FC0C00384BF3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683024942A38FC0C00384BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683024952A38FC0C00384BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		683024992A38FC0D00384BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6830249A2A38FC0D00384BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6830249D2A38FC0D00384BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6830249E2A38FC0D00384BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683024A02A38FC0D00384BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A51C05479BE0794273BAB1A /* Pods-SmartHomeView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6GV8W7SV8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartHomeView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartHomeView.SmartHomeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		683024A12A38FC0D00384BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6C606DD55EDC5A7366437E /* Pods-SmartHomeView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6GV8W7SV8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartHomeView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartHomeView.SmartHomeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683024862A38FC0C00384BF3 /* Build configuration list for PBXProject "SmartHomeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6830249D2A38FC0D00384BF3 /* Debug */,
+				6830249E2A38FC0D00384BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6830249F2A38FC0D00384BF3 /* Build configuration list for PBXNativeTarget "SmartHomeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683024A02A38FC0D00384BF3 /* Debug */,
+				683024A12A38FC0D00384BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683024832A38FC0C00384BF3 /* Project object */;
+}

@@ -8,7 +8,7 @@
 import UIKit
 
 class TimeView: UIView {
-
+    
     @IBOutlet var mainTimeView: UIView!
     @IBOutlet weak var pointImage: UIImageView!
     @IBOutlet weak var nameOfPointLable: UILabel!
@@ -51,8 +51,7 @@ class TimeView: UIView {
             print("Time OFF")
         }
         
-        
     }
     
-
+    
 }
