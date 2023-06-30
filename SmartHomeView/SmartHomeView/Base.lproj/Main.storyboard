@@ -124,58 +124,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nnL-3J-YjB" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
-                                <rect key="frame" x="16" y="76" width="382" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="ZFs-OJ-oi0"/>
-                                    <constraint firstAttribute="width" constant="382" id="cdH-Vo-GpC"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28s-ev-sPb" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
-                                <rect key="frame" x="16" y="258" width="382" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="343" width="382" height="150"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="gdg-iw-O0U"/>
-                                    <constraint firstAttribute="width" constant="382" id="htK-YM-EGI"/>
+                                    <constraint firstAttribute="width" constant="382" id="NF8-hW-RzQ"/>
+                                    <constraint firstAttribute="height" constant="150" id="jdX-GH-6C8"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jo-x9-4uE" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
-                                <rect key="frame" x="16" y="440" width="382" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="501" width="382" height="150"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="382" id="Mv4-gb-P1J"/>
-                                    <constraint firstAttribute="height" constant="150" id="P5H-O6-CUo"/>
+                                    <constraint firstAttribute="width" constant="382" id="5Op-ga-94l"/>
+                                    <constraint firstAttribute="height" constant="150" id="9nN-i6-5Hd"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-qm-0lD" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
-                                <rect key="frame" x="16" y="622" width="382" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="659" width="382" height="150"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="382" id="inD-Jz-EXs"/>
-                                    <constraint firstAttribute="height" constant="150" id="wo2-2v-1uv"/>
+                                    <constraint firstAttribute="width" constant="382" id="chA-cp-wXV"/>
+                                    <constraint firstAttribute="height" constant="150" id="iIf-ah-wII"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3g-EL-AVj" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="40" width="414" height="141"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="time"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nnL-3J-YjB" customClass="TimeView" customModule="SmartHomeView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="185" width="382" height="150"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="mBx-E4-1Gf"/>
+                                    <constraint firstAttribute="height" constant="150" id="zg6-HP-wf6"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eR8-VZ-y7g"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="8jo-x9-4uE" secondAttribute="trailing" constant="16" id="4qM-jI-cGo"/>
-                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="9Ia-qm-0lD" secondAttribute="trailing" constant="16" id="8VO-F3-zia"/>
-                            <constraint firstItem="nnL-3J-YjB" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="Lef-Oz-EB0"/>
-                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="LnZ-om-B9c"/>
-                            <constraint firstItem="8jo-x9-4uE" firstAttribute="top" secondItem="28s-ev-sPb" secondAttribute="bottom" constant="32" id="NM4-I5-TWG"/>
-                            <constraint firstItem="28s-ev-sPb" firstAttribute="top" secondItem="nnL-3J-YjB" secondAttribute="bottom" constant="32" id="SZY-Bs-l4C"/>
-                            <constraint firstItem="nnL-3J-YjB" firstAttribute="top" secondItem="eR8-VZ-y7g" secondAttribute="top" constant="32" id="ZRa-RE-JVn"/>
-                            <constraint firstItem="8jo-x9-4uE" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="huj-c6-bEB"/>
-                            <constraint firstItem="28s-ev-sPb" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="paz-8W-DbT"/>
-                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="top" secondItem="8jo-x9-4uE" secondAttribute="bottom" constant="32" id="tUt-bd-omz"/>
-                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="nnL-3J-YjB" secondAttribute="trailing" constant="16" id="udz-Dg-1lv"/>
-                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="28s-ev-sPb" secondAttribute="trailing" constant="16" id="wHQ-c6-nRQ"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="8jo-x9-4uE" secondAttribute="trailing" constant="16" id="3qZ-hG-WgO"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="9Ia-qm-0lD" secondAttribute="trailing" constant="16" id="8Pl-bC-nto"/>
+                            <constraint firstItem="8jo-x9-4uE" firstAttribute="top" secondItem="28s-ev-sPb" secondAttribute="bottom" constant="8" id="8ip-Kn-HDv"/>
+                            <constraint firstItem="nnL-3J-YjB" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="9Wd-7K-c1e"/>
+                            <constraint firstItem="8jo-x9-4uE" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="T6v-Q5-IEX"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="nnL-3J-YjB" secondAttribute="trailing" constant="16" id="TBE-DQ-a6E"/>
+                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="top" secondItem="8jo-x9-4uE" secondAttribute="bottom" constant="8" id="VRr-55-cvu"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="bottom" secondItem="9Ia-qm-0lD" secondAttribute="bottom" constant="4" id="WIz-Py-xIi"/>
+                            <constraint firstItem="9Ia-qm-0lD" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="kUz-FR-wDk"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="28s-ev-sPb" secondAttribute="trailing" constant="16" id="oKr-iK-URC"/>
+                            <constraint firstItem="o3g-EL-AVj" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" id="p8y-No-6gr"/>
+                            <constraint firstItem="o3g-EL-AVj" firstAttribute="top" secondItem="wr7-Wz-GbV" secondAttribute="top" constant="40" id="pep-Gc-saE"/>
+                            <constraint firstItem="eR8-VZ-y7g" firstAttribute="trailing" secondItem="o3g-EL-AVj" secondAttribute="trailing" id="r5U-Xv-Csn"/>
+                            <constraint firstItem="28s-ev-sPb" firstAttribute="top" secondItem="nnL-3J-YjB" secondAttribute="bottom" constant="8" id="s8w-ob-XDR"/>
+                            <constraint firstItem="28s-ev-sPb" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="x00-uP-v9m"/>
+                            <constraint firstItem="nnL-3J-YjB" firstAttribute="top" secondItem="o3g-EL-AVj" secondAttribute="bottom" constant="4" id="znT-XD-5kC"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="zmo-1n-TPf"/>
                     <connections>
+                        <outlet property="animateTimeLottie" destination="o3g-EL-AVj" id="DPy-6X-yNQ"/>
                         <outlet property="timeBrekfast" destination="28s-ev-sPb" id="wmF-IJ-FZw"/>
                         <outlet property="timeEvening" destination="8jo-x9-4uE" id="Xkf-u3-sFC"/>
                         <outlet property="timeHoliday" destination="9Ia-qm-0lD" id="IgU-JF-6Tf"/>
@@ -192,6 +204,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yw5-yi-k3Y" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AT4-UX-cIk">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -211,6 +224,9 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

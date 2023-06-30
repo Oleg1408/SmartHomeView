@@ -14,6 +14,7 @@ class TimeView: UIView {
     @IBOutlet weak var nameOfPointLable: UILabel!
     @IBOutlet weak var timeLable: UILabel!
     @IBOutlet weak var dayLable: UILabel!
+    
     @IBOutlet weak var timeSwitch: UISwitch!
     
     override init(frame: CGRect) {
@@ -40,9 +41,9 @@ class TimeView: UIView {
         timeLable.text = time
         dayLable.text = day
     }
-    
+
     @IBAction func pushTimeSwitch(_ sender: Any) {
-        
+
         if timeSwitch.isOn {
             mainTimeView.alpha = 1
             print("Time ON")
@@ -50,8 +51,5 @@ class TimeView: UIView {
             mainTimeView.alpha = 0.5
             print("Time OFF")
         }
-        
     }
-    
-    
 }

@@ -8,11 +8,7 @@
 import UIKit
 
 class MainSmartHomeController: UIViewController, DelegateCollorView {
- 
-
     
-
-
     @IBOutlet weak var lampView: LampBlock!
     @IBOutlet weak var chargerView: ChargeBlock!
     @IBOutlet weak var themeView: InfoView!
@@ -31,7 +27,6 @@ class MainSmartHomeController: UIViewController, DelegateCollorView {
         settingsLargeBlock()
         settingsConfigur()
         collorPlacement()
-
     }
     
     private func settingsConfigur() {
@@ -51,26 +46,24 @@ class MainSmartHomeController: UIViewController, DelegateCollorView {
         timeTodayView.configurTime(imagePoint: UIImage(named: "dotWork")!, pointName: "Work", time: "11:00 am – 12:00 am", day: "Fri")
     }
     
-
+    
+    //
+    //    func test() {
+    //
+    //        let gradient = CAGradientLayer()
+    //        let blue = UIColor(red: 10/255, green: 91/255, blue: 133/255, alpha: 1)
+    //        let green = UIColor(red: 0, green: 146/255, blue: 139/255, alpha: 1)
+    //        gradient.colors = [blue.cgColor, green.cgColor, green.cgColor]
+    //        gradient.locations = [0, 0.3, 1]
+    //        gradient.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+    //        view.layer.addSublayer(gradient)
+    //    }
+    //
+    //
     
     
-//
-//    func test() {
-//
-//        let gradient = CAGradientLayer()
-//        let blue = UIColor(red: 10/255, green: 91/255, blue: 133/255, alpha: 1)
-//        let green = UIColor(red: 0, green: 146/255, blue: 139/255, alpha: 1)
-//        gradient.colors = [blue.cgColor, green.cgColor, green.cgColor]
-//        gradient.locations = [0, 0.3, 1]
-//        gradient.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
-//        view.layer.addSublayer(gradient)
-//    }
-//
-//
-    
+     func collorPlacement() {
         
-    func collorPlacement() {
-
         placementView.rightSmallImage.alpha = 1.0
     }
     
@@ -90,9 +83,5 @@ class MainSmartHomeController: UIViewController, DelegateCollorView {
         placementView.layer.cornerRadius = 40
         timeTodayView.layer.cornerRadius = 40
     }
-    
-    
-    
-    
 }
 

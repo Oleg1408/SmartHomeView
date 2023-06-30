@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Lottie
 
 class PowerView: UIView {
 
@@ -34,8 +33,7 @@ class PowerView: UIView {
         powerTextLable.text = textPower
         powerMainView.layer.cornerRadius = 40
     }
-    
-    
+
     @IBAction func clickPower(_ sender: Any) {
         if powerSwitch.isOn {
             print("ON")
@@ -43,6 +41,4 @@ class PowerView: UIView {
             print("OFF")
         }
     }
-    
-
 }

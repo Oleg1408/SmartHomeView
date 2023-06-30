@@ -39,6 +39,4 @@ class LampBlock: UIView {
         lampImageView.layer.cornerRadius = 40
         mainLampView.layer.cornerRadius = 40
     }
-    
-    
 }
