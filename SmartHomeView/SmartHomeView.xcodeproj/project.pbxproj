@@ -13,6 +13,7 @@
 		683024962A38FC0C00384BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683024942A38FC0C00384BF3 /* Main.storyboard */; };
 		683024982A38FC0D00384BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683024972A38FC0D00384BF3 /* Assets.xcassets */; };
 		6830249B2A38FC0D00384BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683024992A38FC0D00384BF3 /* LaunchScreen.storyboard */; };
+		6861DB522A5204DB0072A589 /* time.json in Resources */ = {isa = PBXBuildFile; fileRef = 6861DB512A5204DB0072A589 /* time.json */; };
 		687A6FE82A38FE0F007D3B34 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FE72A38FE0F007D3B34 /* TimeViewController.swift */; };
 		687A6FEB2A390747007D3B34 /* LampBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6FEA2A390747007D3B34 /* LampBlock.swift */; };
 		687A6FED2A39075D007D3B34 /* LampBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A6FEC2A39075D007D3B34 /* LampBlock.xib */; };
@@ -27,7 +28,6 @@
 		687A700D2A40EC03007D3B34 /* PowerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A700C2A40EC03007D3B34 /* PowerView.xib */; };
 		687A70102A440CC4007D3B34 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A700F2A440CC4007D3B34 /* TimeView.swift */; };
 		687A70122A440CD3007D3B34 /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A70112A440CD3007D3B34 /* TimeView.xib */; };
-		687A70212A4F69D2007D3B34 /* time.json in Resources */ = {isa = PBXBuildFile; fileRef = 687A70202A4F69D2007D3B34 /* time.json */; };
 		73DC2A4336A0C8F9C9E0E9F2 /* Pods_SmartHomeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005ABCE1AF57CDC93A37780F /* Pods_SmartHomeView.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,7 @@
 		683024972A38FC0D00384BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6830249A2A38FC0D00384BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6830249C2A38FC0D00384BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6861DB512A5204DB0072A589 /* time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = time.json; path = ../../../../../Downloads/time.json; sourceTree = "<group>"; };
 		687A6FE72A38FE0F007D3B34 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		687A6FEA2A390747007D3B34 /* LampBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampBlock.swift; sourceTree = "<group>"; };
 		687A6FEC2A39075D007D3B34 /* LampBlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LampBlock.xib; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		687A700C2A40EC03007D3B34 /* PowerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowerView.xib; sourceTree = "<group>"; };
 		687A700F2A440CC4007D3B34 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		687A70112A440CD3007D3B34 /* TimeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeView.xib; sourceTree = "<group>"; };
-		687A70202A4F69D2007D3B34 /* time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = time.json; sourceTree = "<group>"; };
 		7C6C606DD55EDC5A7366437E /* Pods-SmartHomeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeView.release.xcconfig"; path = "Target Support Files/Pods-SmartHomeView/Pods-SmartHomeView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 		6830248D2A38FC0C00384BF3 /* SmartHomeView */ = {
 			isa = PBXGroup;
 			children = (
-				687A70202A4F69D2007D3B34 /* time.json */,
+				6861DB512A5204DB0072A589 /* time.json */,
 				687A6FEE2A390D75007D3B34 /* ExtensionUIView */,
 				687A700E2A440CAC007D3B34 /* SettingsTime */,
 				687A70092A40EBD5007D3B34 /* SettingsPower */,
@@ -262,7 +262,7 @@
 			files = (
 				687A70012A3D87CB007D3B34 /* InfoView.xib in Resources */,
 				687A70122A440CD3007D3B34 /* TimeView.xib in Resources */,
-				687A70212A4F69D2007D3B34 /* time.json in Resources */,
+				6861DB522A5204DB0072A589 /* time.json in Resources */,
 				6830249B2A38FC0D00384BF3 /* LaunchScreen.storyboard in Resources */,
 				687A6FFC2A3A47B3007D3B34 /* ChargeBlock.xib in Resources */,
 				683024982A38FC0D00384BF3 /* Assets.xcassets in Resources */,
@@ -486,6 +486,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,6 +516,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

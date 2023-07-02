@@ -40,14 +40,26 @@
                     </attributedString>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTz-lg-BBk">
+                    <rect key="frame" x="0.0" y="0.0" width="262" height="165"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="pressCollor:" destination="-1" eventType="touchUpInside" id="8f3-AF-pR8"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
+                <constraint firstItem="oTz-lg-BBk" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="5Xy-Jw-boY"/>
                 <constraint firstItem="CXG-tL-h6U" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="9QN-ca-HIq"/>
                 <constraint firstItem="CXG-tL-h6U" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="PDU-bT-ZV4"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nio-oh-ZWh" secondAttribute="trailing" constant="24" id="a12-LB-ghh"/>
                 <constraint firstItem="nio-oh-ZWh" firstAttribute="centerY" secondItem="CXG-tL-h6U" secondAttribute="centerY" id="gzU-vA-lnw"/>
+                <constraint firstItem="oTz-lg-BBk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hvy-mL-93D"/>
+                <constraint firstItem="oTz-lg-BBk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ogt-pl-n2Q"/>
+                <constraint firstItem="oTz-lg-BBk" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="vUi-IU-4Hs"/>
                 <constraint firstItem="nio-oh-ZWh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="yi4-wK-mXW"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

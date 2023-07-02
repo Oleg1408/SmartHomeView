@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainSmartHomeController: UIViewController, DelegateCollorView {
+class MainSmartHomeController: UIViewController, DelegateCollorView, ColorDelegate {
     
     @IBOutlet weak var lampView: LampBlock!
     @IBOutlet weak var chargerView: ChargeBlock!
@@ -22,11 +22,16 @@ class MainSmartHomeController: UIViewController, DelegateCollorView {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        colorsView.delegateCollor = self
+        
         settingsLampView()
         settingsSmallBlock()
         settingsLargeBlock()
         settingsConfigur()
         collorPlacement()
+        
+        
+        //test()
     }
     
     private func settingsConfigur() {
@@ -47,20 +52,32 @@ class MainSmartHomeController: UIViewController, DelegateCollorView {
     }
     
     
-    //
-    //    func test() {
-    //
-    //        let gradient = CAGradientLayer()
-    //        let blue = UIColor(red: 10/255, green: 91/255, blue: 133/255, alpha: 1)
-    //        let green = UIColor(red: 0, green: 146/255, blue: 139/255, alpha: 1)
-    //        gradient.colors = [blue.cgColor, green.cgColor, green.cgColor]
-    //        gradient.locations = [0, 0.3, 1]
-    //        gradient.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
-    //        view.layer.addSublayer(gradient)
-    //    }
-    //
-    //
     
+//        func test() {
+//
+//            let gradient = CAGradientLayer()
+//            let blue = UIColor(red: 10/255, green: 91/255, blue: 133/255, alpha: 1)
+//            let green = UIColor(red: 0, green: 146/255, blue: 139/255, alpha: 1)
+//            gradient.colors = [blue.cgColor, green.cgColor, green.cgColor]
+//
+//            gradient.locations = [0, 0.3, 1]
+//            gradient.frame = CGRect(x: 0, y: 0, width: 185, height: 180)
+//            gradient.cornerRadius = 40
+//            themeView.layer.addSublayer(gradient)
+//        }
+    
+    
+    
+    
+    func collor(sender: CollorView) {
+        
+        if sender === colorsView {
+            print("This is color menu")
+        } else {
+            print("This is not color menu")
+        }
+    }
+
     
      func collorPlacement() {
         

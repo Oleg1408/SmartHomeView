@@ -7,11 +7,19 @@
 
 import UIKit
 
+protocol ColorDelegate: AnyObject {
+    
+    func collor(sender: CollorView)
+    
+}
+
 class CollorView: UIView {
 
     @IBOutlet var collorMainView: UIView!
     @IBOutlet weak var collorImageView: UIImageView!
     @IBOutlet weak var collorTextLable: UILabel!
+    
+    weak var delegateCollor: ColorDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -36,7 +44,8 @@ class CollorView: UIView {
         
     }
     
-    
- 
-    
+    @IBAction func pressCollor(_ sender: Any) {
+
+        delegateCollor?.collor(sender: self)
+    }
 }

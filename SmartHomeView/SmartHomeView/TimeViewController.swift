@@ -38,7 +38,7 @@ class TimeViewController: UIViewController {
         
         animateTimeLottie.contentMode = .scaleAspectFill
         animateTimeLottie.loopMode = .loop
-    
+        
         animateTimeLottie.play()
     }
     
