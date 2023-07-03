@@ -66,9 +66,6 @@ class MainSmartHomeController: UIViewController, DelegateCollorView, ColorDelega
 //            themeView.layer.addSublayer(gradient)
 //        }
     
-    
-    
-    
     func collor(sender: CollorView) {
         
         if sender === colorsView {
@@ -77,7 +74,6 @@ class MainSmartHomeController: UIViewController, DelegateCollorView, ColorDelega
             print("This is not color menu")
         }
     }
-
     
      func collorPlacement() {
         

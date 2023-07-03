@@ -49,9 +49,9 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u26-HP-dL9">
-                    <rect key="frame" x="32" y="101.5" width="150" height="16.5"/>
+                    <rect key="frame" x="32" y="101.5" width="200" height="16.5"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="150" id="UMZ-Xf-RXw"/>
+                        <constraint firstAttribute="width" constant="200" id="UMZ-Xf-RXw"/>
                     </constraints>
                     <attributedString key="attributedText">
                         <fragment content="Label">

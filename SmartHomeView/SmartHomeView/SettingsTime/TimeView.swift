@@ -32,7 +32,7 @@ class TimeView: UIView {
         mainTimeView.fixInView(self)
     }
     
-    func configurTime(imagePoint: UIImage, pointName: String, time: String, day: String) {
+    func configurTime(imagePoint: UIImage?, pointName: String, time: String, day: String) {
         
         mainTimeView.layer.cornerRadius = 40
         pointImage.image = imagePoint

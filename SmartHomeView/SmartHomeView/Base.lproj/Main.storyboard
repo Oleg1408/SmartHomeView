@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Main Smart Home Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="MainSmartHomeController" id="BYZ-38-t0r" customClass="MainSmartHomeController" customModule="SmartHomeView" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,7 +106,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1yf-X4-Mfq" secondAttribute="trailing" constant="12" id="xg4-xG-e4N"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ny7-XP-ksq"/>
+                    <tabBarItem key="tabBarItem" image="house" catalog="system" id="Ny7-XP-ksq">
+                        <color key="badgeColor" red="0.15294116739999999" green="0.15294116739999999" blue="0.15294116739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="chargerView" destination="hxN-8e-3hT" id="ibv-Ey-F4f"/>
                         <outlet property="colorsView" destination="5JO-l9-zgD" id="KeR-IK-kSY"/>
@@ -122,7 +124,7 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
         </scene>
-        <!--Item-->
+        <!--Time View Controller-->
         <scene sceneID="648-hv-dIN">
             <objects>
                 <viewController storyboardIdentifier="TimeViewController" id="Clz-jJ-C7O" customClass="TimeViewController" customModule="SmartHomeView" customModuleProvider="target" sceneMemberID="viewController">
@@ -187,7 +189,9 @@
                             <constraint firstItem="nnL-3J-YjB" firstAttribute="leading" secondItem="eR8-VZ-y7g" secondAttribute="leading" constant="16" id="zlw-2H-Lwv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zmo-1n-TPf"/>
+                    <tabBarItem key="tabBarItem" title="" image="timer" catalog="system" id="zmo-1n-TPf">
+                        <color key="badgeColor" systemColor="labelColor"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="animateTimeLottie" destination="o3g-EL-AVj" id="DPy-6X-yNQ"/>
                         <outlet property="timeBrekfast" destination="28s-ev-sPb" id="wmF-IJ-FZw"/>
@@ -208,7 +212,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AT4-UX-cIk">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" systemColor="labelColor"/>
+                        <color key="selectedImageTintColor" systemColor="systemGrayColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="f46-84-Xjs"/>
@@ -220,10 +225,13 @@
             <point key="canvasLocation" x="42" y="433"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="o3g-EL-AVj"/>
-    </designables>
+    <color key="tintColor" systemColor="labelColor"/>
     <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -232,6 +240,9 @@
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

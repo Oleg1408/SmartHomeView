@@ -27,10 +27,10 @@ class TimeViewController: UIViewController {
     
     private func timeSettings() {
         
-        timeMorning.configurTime(imagePoint: UIImage(), pointName: "Wake Up", time: "09:00 am – 10:00 am", day: "Mon,Tus,Wed,Thu,Fri")
-        timeBrekfast.configurTime(imagePoint: UIImage(), pointName: "Time to Brekfasn", time: "12:00 am - 13:00 pm", day: "Mon,Tus,Wed,Thu,Fri,Sat,Sun")
-        timeEvening.configurTime(imagePoint: UIImage(), pointName: "Good night", time: "21:00 pm - 22:00 pm", day: "Mon,Tus,Wed,Thu,Fri")
-        timeHoliday.configurTime(imagePoint: UIImage(), pointName: "Holiday", time: "10:00 am - 11:00 am", day: "Sat,Sun")
+        timeMorning.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Wake Up", time: "09:00 am – 10:00 am", day: "Mon,Tus,Wed,Thu,Fri")
+        timeBrekfast.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Time to Brekfasn", time: "12:00 am - 13:00 pm", day: "Mon,Tus,Wed,Thu,Fri,Sat,Sun")
+        timeEvening.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Good night", time: "21:00 pm - 22:00 pm", day: "Mon,Tus,Wed,Thu,Fri")
+        timeHoliday.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Holiday", time: "10:00 am - 11:00 am", day: "Sat,Sun")
         
     }
     
@@ -38,7 +38,6 @@ class TimeViewController: UIViewController {
         
         animateTimeLottie.contentMode = .scaleAspectFill
         animateTimeLottie.loopMode = .loop
-        
         animateTimeLottie.play()
     }
     
