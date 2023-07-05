@@ -31,7 +31,6 @@ class TimeViewController: UIViewController {
         timeBrekfast.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Time to Brekfasn", time: "12:00 am - 13:00 pm", day: "Mon,Tus,Wed,Thu,Fri,Sat,Sun")
         timeEvening.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Good night", time: "21:00 pm - 22:00 pm", day: "Mon,Tus,Wed,Thu,Fri")
         timeHoliday.configurTime(imagePoint: UIImage(named: "dotMain"), pointName: "Holiday", time: "10:00 am - 11:00 am", day: "Sat,Sun")
-        
     }
     
     private func settimgsAnimateLottie() {
@@ -48,5 +47,4 @@ class TimeViewController: UIViewController {
         timeEvening.layer.cornerRadius = 40
         timeHoliday.layer.cornerRadius = 40
     }
-    
 }

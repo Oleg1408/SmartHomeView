@@ -8,9 +8,7 @@
 import UIKit
 
 protocol ColorDelegate: AnyObject {
-    
     func collor(sender: CollorView)
-    
 }
 
 class CollorView: UIView {
@@ -45,7 +43,6 @@ class CollorView: UIView {
     }
     
     @IBAction func pressCollor(_ sender: Any) {
-
         delegateCollor?.collor(sender: self)
     }
 }

@@ -8,7 +8,9 @@
 import UIKit
 
 protocol DelegateCollorView {
+    
     func collorPlacement()
+    
 }
 
 class InfoView: UIView {
@@ -36,8 +38,8 @@ class InfoView: UIView {
         mainInfoView.fixInView(self)
     }
     
-    func configurInfo(mainText: String, smallText: String, imageLeft: UIImage, imageRight: UIImage) {
-
+    func configurInfo(mainText: String, smallText: String, mainCollor: UIColor, imageLeft: UIImage?, imageRight: UIImage?) {
+        
         mainInfoView.layer.cornerRadius = 40
         rightSmallImage.image = imageRight
         rightSmallImage.alpha = 0.3
@@ -45,11 +47,11 @@ class InfoView: UIView {
         leftImage.alpha = 0.5
         firstTextLable.text = mainText
         secondTextLable.text = smallText
+        mainInfoView.backgroundColor = mainCollor
         
     }
     
     func settingRigteImage() {
         delegate?.collorPlacement()
     }
-    
 }

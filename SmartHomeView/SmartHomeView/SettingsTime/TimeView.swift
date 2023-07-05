@@ -41,9 +41,9 @@ class TimeView: UIView {
         timeLable.text = time
         dayLable.text = day
     }
-
+    
     @IBAction func pushTimeSwitch(_ sender: Any) {
-
+        
         if timeSwitch.isOn {
             mainTimeView.alpha = 1
             print("Time ON")

@@ -30,7 +30,7 @@ class LampBlock: UIView {
         mainLampView.fixInView(self)
     }
     
-    func configurLamp(text: String, lampImage: UIImage, sunImage: UIImage, colourImage: UIImage) {
+    func configurLamp(text: String, lampImage: UIImage?, sunImage: UIImage?, colourImage: UIImage?) {
         
         lampImageView.image = lampImage
         percentLampImageView.image = sunImage

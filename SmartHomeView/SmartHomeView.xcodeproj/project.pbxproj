@@ -167,8 +167,8 @@
 		687A70022A40C15F007D3B34 /* SettingsCollor */ = {
 			isa = PBXGroup;
 			children = (
-				687A70052A40C1AB007D3B34 /* CollorView.xib */,
 				687A70072A40CA3A007D3B34 /* CollorView.swift */,
+				687A70052A40C1AB007D3B34 /* CollorView.xib */,
 			);
 			path = SettingsCollor;
 			sourceTree = "<group>";

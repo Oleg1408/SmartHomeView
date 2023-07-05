@@ -30,7 +30,7 @@ class ChargeBlock: UIView {
         mainChargeBlock.fixInView(self)
     }
     
-    func configurCharge(image: UIImage, largeTextLable: String, smallTextLable: String) {
+    func configurCharge(image: UIImage?, largeTextLable: String, smallTextLable: String) {
         
         chargeImageView.image = image
         centralTextLable.text = largeTextLable
@@ -40,7 +40,7 @@ class ChargeBlock: UIView {
         redBlockView.isHidden = true
     }
     
-    func configurPower(imagePower: UIImage) {
+    func configurPower(imagePower: UIImage?) {
         
         chargeImageView.image = imagePower
         chargeImageView.alpha = 0.3
@@ -48,7 +48,5 @@ class ChargeBlock: UIView {
         redBlockView.layer.cornerRadius = 40
         centralTextLable.isHidden = true
         grayLittleTextLable.isHidden = true
-
     }
-    
 }
